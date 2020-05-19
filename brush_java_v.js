@@ -10,7 +10,7 @@
             'package private protected public return ' +
             'short static strictfp super switch synchronized this throw throws true ' +
             'transient try void volatile while';
- var classes = 'HashMap List ArrayList Stream ' +
+ var classes = 'ArrayList Base64 Calendar GregorianCalendar Date EnumMap EnumSet HashMap HashSet Hashtable LinkedList Optional PriorityQueue Properties ResourceBundle TreeMap TreeSet ' +
             'Stream ' ;
         this.regexList = [{
                 regex: SyntaxHighlighter.regexLib.singleLineCComments,
