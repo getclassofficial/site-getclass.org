@@ -12,6 +12,7 @@
             'transient try void volatile while';
  var classes = 'ArrayList Base64 Calendar GregorianCalendar Date EnumMap EnumSet HashMap HashSet Hashtable LinkedList Optional PriorityQueue Properties ResourceBundle TreeMap TreeSet ' +
             'Stream ' ;
+	     var methods = 'map flatMap forEach out' ;
         this.regexList = [{
                 regex: SyntaxHighlighter.regexLib.singleLineCComments,
                 css: 'comments'
