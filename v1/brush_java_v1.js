@@ -56,7 +56,11 @@
  			{
                 regex: new RegExp(this.getKeywords(classes), 'gm'),
                 css: 'colorClass'
-            } // java classes
+            }, // java classes
+			  {
+                regex: new RegExp(this.getKeywords(methods), 'gm'),
+                css: 'colorMethod'
+            } // java methods
         ];
         this.forHtmlScript({
             left: /(&lt;|<)%[@!=]?/g,
